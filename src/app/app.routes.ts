@@ -13,4 +13,3 @@ export const routes: Routes = [
     { path: 'skills', component: SkillsComponent },
     { path: 'contact-me', component: ContactMeComponent },
 ];
-``
