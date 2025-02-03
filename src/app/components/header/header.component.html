@@ -1,0 +1,15 @@
+<header>
+    <div class="header-container">
+        <div>
+            <p class="heading-name">Alejandro Grau</p>
+            <p class="subheading">Powered by: Angular and AWS</p>
+        </div>
+        <div>
+            <button [class]="isActive('/home') ? 'link-active' : 'link'" (click)="reroute('/home')">Home</button>
+            <button [class]="isActive('/projects') ? 'link-active' : 'link'" (click)="reroute('/projects')">Projects</button>
+            <button [class]="isActive('/experience') ? 'link-active' : 'link'" (click)="reroute('/experience')">Experience</button>
+            <button [class]="isActive('/skills') ? 'link-active' : 'link'" (click)="reroute('/skills')">Skills</button>
+            <button [class]="isActive('/contact-me') ? 'link-active' : 'link'" (click)="reroute('/contact-me')">Contact Me</button>
+        </div>
+    </div>
+</header>
