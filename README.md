@@ -23,5 +23,5 @@ npm install
 3. Run development server
 
 ```bash
-ng serve
+npx ng serve
 ```
