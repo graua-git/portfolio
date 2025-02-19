@@ -1,9 +1,11 @@
 :root {
     --primary-color: #1c6275;
-    --background: #333333;
+    --background: #111111;
     --text: white;
-    --text-highlight: lightgray;
+    --text-highlight: #AAAAAA;
     --button-highlight: #337d91;
+    --card-background: #151515;
+    --card-background-highlight: #222222;
  }
   
 

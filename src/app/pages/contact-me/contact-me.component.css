@@ -1,0 +1,63 @@
+.label {
+    color: var(--text);
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    color: var(--text);
+    font-size: 48px;
+    margin: 15px;
+    text-align: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    margin: 5px 0px;
+    padding: 5px;
+    width: 500px;
+    height: 20px;
+    background-color: var(--background);
+    border-radius: 10px;
+    border: 1px solid var(--text-highlight);
+    outline: none;
+    color: var(--text);
+}
+
+textarea {
+    margin: 5px 0px;
+    padding: 5px;
+    width: 500px;
+    height: 200px;
+    background-color: var(--background);
+    border-radius: 10px;
+    border: 1px solid var(--text-highlight);
+    outline: none;  
+    color: var(--text);
+}
+
+button {
+    background-color: var(--primary-color);
+    color: var(--text);
+    font-size: 12;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 0px;
+    padding: 15px 100px;
+    outline: none;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: var(--button-highlight);
+}
+
+button:hover {
+    text-decoration: underline;
+}

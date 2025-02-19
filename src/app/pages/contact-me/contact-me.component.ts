@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-
 @Component({
   selector: 'app-contact-me',
   imports: [],
@@ -7,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './contact-me.component.css'
 })
 export class ContactMeComponent {
-
+  formspreeEndpoint = "https://formspree.io/f/mkgoknnz";
 }

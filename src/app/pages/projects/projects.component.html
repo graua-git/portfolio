@@ -1,1 +1,8 @@
-<p>projects works!</p>
+<div class="page">
+    <h3 class="title">My Projects</h3>
+    <div class="projects" *ngIf="projects.length">
+        <div *ngFor="let project of projects">
+            <project-card [project]="project"></project-card>  <!-- Pass each project to the child component -->
+        </div>
+    </div>
+</div>

@@ -1,1 +1,8 @@
-<p>experience works!</p>
+<div class="page">
+    <h3 class="title">My Experience</h3>
+    <div class="experiences" *ngIf="experiences.length">
+        <div *ngFor="let experience of experiences">
+            <experience-card [experience]="experience"></experience-card>  <!-- Pass each project to the child component -->
+        </div>
+    </div>
+</div>
