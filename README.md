@@ -2,8 +2,15 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.3.
 
-## Week 4-5 Update
-Implemented Header, Footer, Home Page, and started on Projects Page
+## Week 6-7 Update
+Finished Projects Page along with Experience and Contact Me.
+
+## What's Left
+- Add animations to make the site look smoother
+- Fix text on projects and experience
+- Add fonts and clean up styling.
+- Fix the form to alert successful submission rather than redirect to formspree.
+- Deploy to AWS
 
 ## Running this website on localhost
 To run this project on localhost, complete the following steps in directory where this project is saved
