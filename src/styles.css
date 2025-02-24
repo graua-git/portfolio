@@ -6,8 +6,18 @@
     --button-highlight: #337d91;
     --card-background: #151515;
     --card-background-highlight: #222222;
+
+    --font-primary: 'Verdana';
+    --font-secondary: 'Helvetica';
+    --font-body: 'Georgia';
  }
-  
+
+@font-face {
+    font-family: 'Primary';
+    src: url('/src/assets/fonts/BebasNeue-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 html, body {
     background-color: var(--background);

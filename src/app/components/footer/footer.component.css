@@ -4,12 +4,14 @@ footer {
 }
 
 p {
+    font-family: var(--font-secondary);
     color: var(--text);
     padding: 0px 10px;
 }
 
 a {
     color: var(--text);
+    font-family: var(--font-secondary);
     font-size: 16px;
     padding: 0px 10px;
     cursor: pointer;
@@ -17,7 +19,4 @@ a {
 
 a:hover {
     color: var(--text-highlight);
-    font-size: 16px;
-    padding: 0px 10px;
-    cursor: pointer;
 }

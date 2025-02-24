@@ -19,12 +19,15 @@ img {
 
 .title {
     color: var(--text);
-    font-size: 48px;
+    font-family: var(--font-primary);
+    font-size: 52px;
+    font-weight: bold;
     text-align: center;
 }
 
 .subtitle {
     color: var(--text);
+    font-family: var(--font-secondary);
     font-size: 44px;
     text-align: center;
 }

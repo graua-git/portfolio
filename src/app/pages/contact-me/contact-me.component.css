@@ -2,10 +2,13 @@
     color: var(--text);
     display: flex;
     flex-direction: column;
+    margin-top: 2px;
+    font-family: var(--font-secondary);
 }
 
 h3 {
     color: var(--text);
+    font-family: var(--font-secondary);
     font-size: 48px;
     margin: 15px;
     text-align: center;
@@ -28,6 +31,7 @@ input {
     border: 1px solid var(--text-highlight);
     outline: none;
     color: var(--text);
+    font-family: var(--font-body);
 }
 
 textarea {
@@ -40,11 +44,13 @@ textarea {
     border: 1px solid var(--text-highlight);
     outline: none;  
     color: var(--text);
+    font-family: var(--font-body);
 }
 
 button {
     background-color: var(--primary-color);
     color: var(--text);
+    font-family: var(--font-secondary);
     font-size: 12;
     font-weight: bold;
     border-radius: 10px;
