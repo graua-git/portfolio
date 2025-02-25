@@ -6,9 +6,9 @@
     font-family: var(--font-secondary);
 }
 
-h3 {
+.title {
     color: var(--text);
-    font-family: var(--font-secondary);
+    font-family: var(--font-primary);
     font-size: 48px;
     margin: 15px;
     text-align: center;
@@ -58,6 +58,7 @@ button {
     padding: 15px 100px;
     outline: none;
     cursor: pointer;
+    margin-bottom: 20px;
 }
 
 button:active {
