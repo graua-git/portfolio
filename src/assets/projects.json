@@ -1,5 +1,16 @@
 [
     {
+        "name": "BetsOff App",
+        "start_month": "July",
+        "start_year": "2024",
+        "present": false,
+        "end_month": "December",
+        "end_year": "2024",
+        "link": "",
+        "image_route": "",
+        "description": "- Designed a mobile application to allow users to participate in sports betting without risking any money- Demonstrated proficiency in full-stack development using modern frameworks- Improved functionality and user experience by iterating on the application based on user feedback, implementing feature enhancements, and optimizing performance"
+    },
+    {
         "name": "Job Hunting AI Web Tool",
         "start_month": "October",
         "start_year": "2023",
@@ -26,8 +37,8 @@
         "start_month": "January",
         "start_year": "2025",
         "present": false,
-        "end_month": "January",
-        "end_year": "2025",
+        "end_month": "",
+        "end_year": "",
         "link": "https://github.com/graua-git/nextjs-demo",
         "image_route": "",
         "description": "Demonstrating my ability to develop a full-stack application using NextJS for both the front and back-end."

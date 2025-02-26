@@ -31,3 +31,9 @@ img {
     font-size: 44px;
     text-align: center;
 }
+
+@media (max-width: 767px) {
+    .home-container {
+        flex-direction: column;
+    }
+}

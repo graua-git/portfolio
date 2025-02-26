@@ -68,3 +68,9 @@ button:active {
 button:hover {
     color: var(--text-highlight);
 }
+
+@media (max-width: 767px) {
+    input, textarea {
+        width: 350px;
+    }
+}
