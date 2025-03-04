@@ -1,5 +1,5 @@
-<div class="project-card">
+<div class="project-card" [ngClass]="{ 'clickable': project.link }" (click)="openLink(project.link)">
     <p class="name">{{ project.name }}</p>
     <p class="dates">{{ project.start_month }} {{ project.start_year }} - {{ project.end_month }} {{ project.end_year }}</p>
-    <p class="description">{{ project.description }}</p>
+    <p class="description" *ngFor="let line of project.description">{{ line }}</p>
 </div>

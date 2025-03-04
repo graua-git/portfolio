@@ -10,8 +10,8 @@ interface Project {
   end_month: string;
   end_year: string;
   present: boolean;
-  description: string;
-  link: string;
+  description: string[];
+  link: string | null;
 }
 
 @Component({

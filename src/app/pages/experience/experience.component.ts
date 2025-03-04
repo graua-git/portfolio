@@ -8,8 +8,7 @@ interface Experience {
   company: string;
   start_date: string;
   end_date: string;
-  description: string;
-  skills: string;
+  description: string[];
 }
 
 @Component({

@@ -2,6 +2,5 @@
     <p class="title">{{ experience.title }}</p>
     <p class="company">{{ experience.company }}</p>
     <p class="dates">{{ experience.start_date }} - {{ experience.end_date }}</p>
-    <p class="description">{{ experience.description }}</p>
-    <p class="skills">{{ experience.skills }}</p>
+    <p class="description" *ngFor="let line of experience.description">{{ line }}</p>
 </div>

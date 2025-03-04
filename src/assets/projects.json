@@ -6,9 +6,13 @@
         "present": false,
         "end_month": "December",
         "end_year": "2024",
-        "link": "",
+        "link": null,
         "image_route": "",
-        "description": "- Designed a mobile application to allow users to participate in sports betting without risking any money- Demonstrated proficiency in full-stack development using modern frameworks- Improved functionality and user experience by iterating on the application based on user feedback, implementing feature enhancements, and optimizing performance"
+        "description": [
+            "- Designed a mobile application to allow users to participate in sports betting without risking any money",
+            "- Demonstrated proficiency in full-stack development using modern frameworks",
+            "- Improved functionality and user experience by iterating on the application based on user feedback, implementing feature enhancements, and optimizing performance"
+        ]
     },
     {
         "name": "Job Hunting AI Web Tool",
@@ -19,7 +23,13 @@
         "end_year": "2024",
         "link": "https://github.com/jmalp/The-Job-Hunting-AI-Web-Tool",
         "image_route": "",
-        "description": "- Implemented web scraping, data prepping, and machine learning to gather job listings and tailor search results to user's experiences, skills, and desires\n- Contributed to all aspects of the software development lifecycle\n- Created and deployed an API to connect the front-end user interface to the back-end services\n- Worked on a team of three using GitHub for version control and conducting code reviews\nSkills: Google Cloud Platform, Docker, PostgreSQL, Flask, API Development, REST API, React.js, Jira, scikit-learn, Team Collaboration, Version Control, Postman, Design\n"      
+        "description": [
+            "- Implemented web scraping, data prepping, and machine learning to gather job listings and tailor search results to user's experiences, skills, and desires",
+            "- Contributed to all aspects of the software development lifecycle",
+            "- Created and deployed an API to connect the front-end user interface to the back-end services",
+            "- Worked on a team of three using GitHub for version control and conducting code reviews",
+            "Skills: Google Cloud Platform, Docker, PostgreSQL, Flask, API Development, REST API, React.js, Jira, scikit-learn, Team Collaboration, Version Control, Postman, Design"
+        ]      
     },
     {
         "name": "Chess Game",
@@ -30,7 +40,12 @@
         "end_year": "2023",
         "link": "https://github.com/graua-git/chess-project",
         "image_route": "",
-        "description": "- Python project to play a chess game against a bot through a console UI\n- Implemented a series of tests to ensure the program ran correctly\n- Used object-oriented programming paradigm to use different classes that interact with each other\nSkills: Python, Object-Oriented Design, Object-Oriented Programming, Unit Testing, Git, GitHub"
+        "description": [
+            "- Python project to play a chess game against a bot through a console UI",
+            "- Implemented a series of tests to ensure the program ran correctly",
+            "- Used object-oriented programming paradigm to use different classes that interact with each other",
+            "Skills: Python, Object-Oriented Design, Object-Oriented Programming, Unit Testing, Git, GitHub"
+        ]
     },
     {
         "name": "NextJS Demo",
@@ -41,6 +56,8 @@
         "end_year": "",
         "link": "https://github.com/graua-git/nextjs-demo",
         "image_route": "",
-        "description": "Demonstrating my ability to develop a full-stack application using NextJS for both the front and back-end."
+        "description": [
+            "Demonstrating my ability to develop a full-stack application using NextJS for both the front and back-end."
+        ]
     }
 ]

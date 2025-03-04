@@ -4,23 +4,31 @@
         "company": "Oregon State University",
         "start_date": "September 2020",
         "end_date": "March 2025",
-        "description": "description",
-        "skills": "skills"
+        "description": [],
+        "skills": ""
     },
     {
         "title": "Backend Developer Intern",
         "company": "UpUnikSelf",
         "start_date": "January 2025",
         "end_date": "Present",
-        "description": "- Enhanced session management by implementing JWT-based access and refresh tokens, enabling seamless token renewal for expired sessions\n - Integrated GitHub OAuth for user authentication, streamlining account registration and login with automated data population and session handling",
-        "skills": "Next.js, React.js, Prisma, API Development, Git, GitHub"
+        "description": [
+            "- Enhanced session management by implementing JWT-based access and refresh tokens, enabling seamless token renewal for expired sessions",
+            "- Integrated GitHub OAuth for user authentication, streamlining account registration and login with automated data population and session handling",
+            "Skills: Next.js, React.js, Prisma, API Development, Git, GitHub"
+        ]
     },
     {
         "title": "Supervisor",
         "company": "Movement Belmont",
         "start_date": "October 2021",
         "end_date": "April 2023",
-        "description": "- Day-to-day supervision and mentoring of team members \n- Facilitated the delivery of excellent customer service and served as a role model for all team members\n- Provided periodic training to team members on various front-desk operations\n- Held team members and guests accountable for safety and risk management within the gym" ,
-        "skills": "Microsoft Office, Communication, Training, Team Leadership, Team Building, Supervisory Skills"
+        "description": [
+            "- Day-to-day supervision and mentoring of team members",
+            "- Facilitated the delivery of excellent customer service and served as a role model for all team members",
+            "- Provided periodic training to team members on various front-desk operations",
+            "- Held team members and guests accountable for safety and risk management within the gym",
+            "SKills: Microsoft Office, Communication, Training, Team Leadership, Team Building, Supervisory Skills"
+        ]
     }
 ]
