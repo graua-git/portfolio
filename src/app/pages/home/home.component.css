@@ -44,6 +44,7 @@ img {
     animation: fadeIn 1s ease-in;
     animation-delay: 1s;
     opacity: 0;
+    animation-fill-mode: forwards;  
 }
 
 @media (max-width: 767px) {
