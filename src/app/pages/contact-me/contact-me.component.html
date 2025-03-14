@@ -1,26 +1,29 @@
 <div class="page">
     <h3 class="title">Contact Me</h3>
-    <form [attr.action]="formspreeEndpoint" method="POST" class="contact-form">
-        <div class="input-section">
-          <label class="label" for="name">Name</label>
-          <input type="text" id="name" name="name" ngModel required>
-        </div>
-        
-        <div class="input-section">
-          <label class="label" for="email">Email</label>
-          <input type="email" id="email" name="email" ngModel required>
-        </div>
-        
-        <div class="input-section">
-          <label class="label" for="subject">Subject</label>
-          <input type="text" id="subject" name="subject" ngModel required>
-        </div>
-        
-        <div class="input-section">
-          <label class="label" for="message">Message</label>
-          <textarea id="message" name="message" ngModel required></textarea>
-        </div>
-        
-        <button type="submit">Send</button>
-      </form>      
+    <form (ngSubmit)="handleSubmit(contactForm)" #contactForm="ngForm" class="contact-form">
+      <div class="input-section">
+        <label class="label" for="name">Name</label>
+        <input type="text" id="name" name="name" ngModel required>
+      </div>
+      
+      <div class="input-section">
+        <label class="label" for="email">Email</label>
+        <input type="email" id="email" name="email" ngModel required>
+      </div>
+      
+      <div class="input-section">
+        <label class="label" for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" ngModel required>
+      </div>
+      
+      <div class="input-section">
+        <label class="label" for="message">Message</label>
+        <textarea id="message" name="message" ngModel required></textarea>
+      </div>
+      
+      <button type="submit">Send</button>
+    </form>
+    
+    <p *ngIf="successMessage" class="success">{{ successMessage }}</p>
+    <p *ngIf="errorMessage" class="error">{{ errorMessage }}</p>
 </div>
